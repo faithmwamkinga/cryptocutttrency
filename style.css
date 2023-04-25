@@ -70,6 +70,9 @@ a{
     margin-top: 15%;
     border-radius: 50px;
 }
+.right{
+    margin-bottom: 20%;
+}
 .curve{
     width:100%;
     
@@ -201,7 +204,7 @@ h3{
 }
 .ecosystem{
     margin-left: 20%;
-    margin-bottom: -100%;
+    margin-top: -50%;
     border: solid ;
     border-color: #a9e34b;
     border-radius: 50px;
@@ -305,4 +308,68 @@ h5{
     width: 80%;
     height: 40vh;
     margin-left: 70%;
+}
+.border{
+    border-radius: 20px;
+    background-color: #242629;
+    width: 50%;
+    height: 30vh;
+    margin-left: 20%;
+
+}
+#cryptoo{
+    color: #5c940d;
+    text-align: center;
+}
+#cryptoo p{
+    margin-top: 10%;
+}
+#users{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+#get{
+    border-radius: 20px;
+    width: 40%;
+    height: 15vh;
+    background-color: #5c940d;
+    border-color: #5c940d;
+}
+#email{
+    border-radius: 20px;
+    width: 70%;
+    height: 7vh;
+    margin-left: 5%;
+}
+#start{
+    border: #5c940d solid;
+    width: 20%;
+    height: 7vh;
+    background-color: #5c940d;
+    border-radius: 30px;
+    margin-left: -20%;
+}
+footer{
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+@media (max-width:600px){
+a{margin-left: 0%;
+
+    }
+.firstpage{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+}
+.featurespage{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+}
 }

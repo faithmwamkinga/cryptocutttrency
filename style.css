@@ -1,0 +1,308 @@
+body{
+    background-color: black;
+    /* #1f3025; */
+    color: antiquewhite;
+    overflow-x: hidden;
+}
+#logo{
+    width: 50px;
+    height: 8vh;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+a{
+    padding-left: 50px;
+    text-decoration: none;
+    margin-left: 8%;
+    font-size: large; 
+    margin-bottom: 2%;  
+}
+#home{
+    color: #66a80f;
+}
+#wallet{
+    width: 15%;
+    height: 9vh;
+    border-radius: 15px;
+    border-color: #66a80f;
+    margin-left: 2%;
+    font-size: 18px;
+    background-color: #193b07;
+    color: white;
+}
+#secure{
+    color: #63e6be;
+}
+#cryptocurrency{
+    color:#4dabf7 ;
+}
+#crypto{
+    font-size: 50px;
+    text-align: center;
+}
+#cryptoswap{
+    margin-left: 18%;
+}
+#cryptocurrency{
+    margin-right: 18%;
+}
+#exchange{
+    margin-right: 33%;
+}
+.firstpage{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#getstarted{
+    background-color: #66a80f;
+    width: 19%;
+    height: 8vh;
+    border-radius: 10px;
+    border-color: #66a80f;
+    margin-left: 18%;
+    margin-top: 10%;
+}
+.right img{
+    width: 55%;
+    height: 50vh;
+    margin-left: 15%;
+    margin-top: 15%;
+    border-radius: 50px;
+}
+.curve{
+    width:100%;
+    
+   
+}
+#curve{
+    height: 1%;
+    color: #66a80f;
+}
+.top{
+    background: #c2255c;
+
+}
+.bottom{
+    margin-left: 50%;
+    color: #c2255c;
+    width: 50%;
+    /* margin-bottom: 20%; */ 
+}
+/* .bottom svg{
+    margin-bottom: 20%;
+
+} */
+.partners{
+    background-color: #5c940d;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width:100%;
+    height: 20vh;
+    font-size: 30px;
+    color: black;
+}
+#firstlogo{
+    margin-left: 14%;
+}
+#time{
+    font-weight: bolder;
+}
+.table{
+    background-color: #212529;
+    border-radius: 20px;
+    margin-left: 1%;
+}
+th{
+    font-size: 25px;
+}
+.table p{
+ font-size: 45px;
+}
+#assets{
+    margin-left: 2%;
+ margin-top: 2%;
+}
+.table td{
+    margin-top: 30%;
+    padding: 40px 70px 40px;
+    align-items: center;
+
+}
+#buy{
+    background-color: #c2255c;
+    border-color: #c2255c;
+    color: white;
+    border-radius: 20px;
+    width: 10vw;
+    height: 7vh;
+}
+#secondbuy{
+    background-color: #1f2022;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    width: 10vw;
+    height: 7vh;
+}
+#firstcell{
+background-color: #212529;
+}
+#secondcell{
+    background-color: #212529;
+}
+.featurespage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.rightside{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+#feat{
+    font-size: 25px;
+}
+.leftside img{
+    width: 40px;
+    height: 7vh;
+    margin-left: 40%;
+    margin-top: 30%;
+    
+}
+.leftside p{
+    margin-left: 5%;
+    display: grid;
+}
+.leftside{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+h3{
+    margin-left: 5%;
+}
+.payment{
+ border: solid ;
+ border-color: #a9e34b;
+ margin-left: 20%;
+ border-radius: 50px;
+ height: 50vh;
+ width: 60%;
+ background-color: #242629;
+ margin-top: 10%;
+}
+.protection{
+    margin-top: 85%;
+    border: solid ;
+    border-color: #a9e34b; 
+    border-radius: 50px;
+    height: 50vh;
+    width: 60%; 
+    background-color: #242629;
+}
+.ecosystem{
+    margin-left: 20%;
+    margin-bottom: -100%;
+    border: solid ;
+    border-color: #a9e34b;
+    border-radius: 50px;
+    height: 50vh;
+    width: 60%;
+    background-color: #242629;
+}
+.trade{
+    width: 55%;
+    height: 10vh;
+    border-radius: 15px;
+    background-color: #66a80f;
+    color: white;
+    border-color: #66a80f;
+    font-size: 16px;
+}
+.investment{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30%;
+    margin-left: 5%;
+}
+h5{
+    color: #5c940d;
+}
+#crypt{
+    font-size: 25px;
+}
+.explore{
+    width: 35%;
+    height: 10vh;
+    border-radius: 15px;
+    background-color: #66a80f;
+    color: white;
+    border-color: #66a80f;
+    font-size: 16px;
+}
+.quantity{
+    background-color: #e64980;
+    border: #e64980 solid;
+    width: 50%;
+    height: 50vh;
+    border-radius: 45px;
+    
+}
+.quantity img{
+    margin-left: 75%;
+    margin-top: 15%;
+}
+.quantity p{
+    font-size: 2px;
+}
+.countries{
+    background-color: #228be6 ;
+    border: #228be6  solid;
+    width: 50%;
+    height: 50vh;
+    border-radius: 30px;
+    margin-bottom: 10%;
+    margin-right: 30%;
+    /* margin-left: 10%; */
+}
+.countries img{
+    margin-left: 75%;
+    margin-top: 15%;
+}
+.countries p{
+    font-size: 23px;
+    margin-left: 45%;
+    margin-top: 25%;
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30%;
+}
+
+.appstore{
+    width: 55%;
+    height: 10vh;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    margin-left: 65%;
+    margin-bottom: 70%;
+
+}
+.playstore{
+    width: 55%;
+    height: 10vh;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-size: 16px;
+}
+.tablet img{
+    border-radius: 30px;
+    width: 80%;
+    height: 40vh;
+    margin-left: 70%;
+}
